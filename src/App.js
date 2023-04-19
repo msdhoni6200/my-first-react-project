@@ -1,5 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
+import BioData from "./biodata/BioData";
+import Saurabh from "./Saurabh";
+import Images from "./images";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
         >
           saurabh kumar
         </a>
+        <BioData />
       </header>
+      <Saurabh></Saurabh>
+      <Images></Images>
     </div>
   );
 }
