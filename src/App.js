@@ -3,6 +3,8 @@ import "./App.css";
 import BioData from "./biodata/BioData";
 import Saurabh from "./Saurabh";
 import Images from "./images";
+import Ratting from "./himanshu.js/himanshu";
+import Csk from "./csk";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       </header>
       <Saurabh></Saurabh>
       <Images></Images>
+      <Ratting></Ratting>
+      <Csk></Csk>
     </div>
   );
 }
